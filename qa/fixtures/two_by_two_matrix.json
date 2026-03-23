@@ -1,0 +1,19 @@
+{
+  "title": "QA Test - Two by Two Matrix",
+  "slides": [
+    {
+      "type": "two_by_two_matrix",
+      "headline": "Prioritize initiatives by feasibility and impact — three quick wins can fund the larger transformation",
+      "x_axis_label": "Implementation Feasibility",
+      "y_axis_label": "Value Impact ($M Annual)",
+      "items": [
+        {"label": "Pricing Optimization", "x": 0.8, "y": 0.9, "size": "large"},
+        {"label": "Store Footprint Rationalization", "x": 0.3, "y": 0.85, "size": "large"},
+        {"label": "Procurement Consolidation", "x": 0.75, "y": 0.6, "size": "medium"},
+        {"label": "ERP Migration", "x": 0.2, "y": 0.5, "size": "medium"},
+        {"label": "Loyalty Program Relaunch", "x": 0.65, "y": 0.4, "size": "small"}
+      ],
+      "source": "Initiative sizing based on management interviews and McKinsey benchmarks"
+    }
+  ]
+}

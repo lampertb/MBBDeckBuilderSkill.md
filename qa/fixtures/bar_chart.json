@@ -1,0 +1,31 @@
+{
+  "title": "QA Test - Bar Chart",
+  "slides": [
+    {
+      "type": "bar_chart",
+      "headline": "Digital channel revenue has grown 4x since 2022 but remains below peer benchmarks",
+      "categories": ["2022", "2023", "2024", "2025", "2026E"],
+      "series": [
+        {
+          "name": "Digital Revenue ($M)",
+          "values": [180, 310, 485, 620, 780]
+        }
+      ],
+      "y_axis_label": "Revenue ($M)",
+      "overlays": [
+        {
+          "type": "callout_annotation",
+          "text": "Growth inflection driven by mobile app launch and marketplace partnerships",
+          "x": 0.62,
+          "y": 0.35
+        },
+        {
+          "type": "metric_badge",
+          "value": "34%",
+          "label": "CAGR 2022–2026E"
+        }
+      ],
+      "source": "Company internal data; management estimates for 2026E"
+    }
+  ]
+}

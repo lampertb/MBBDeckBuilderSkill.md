@@ -1,0 +1,10 @@
+{
+  "title": "QA Test - Q&A Page",
+  "slides": [
+    {
+      "type": "qa_page",
+      "headline": "Questions & Discussion",
+      "contact_info": "Project Lead: James Park, Partner — jpark@mckinsey.com | +1 (212) 446-7000"
+    }
+  ]
+}

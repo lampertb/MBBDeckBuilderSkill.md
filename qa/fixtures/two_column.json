@@ -1,0 +1,28 @@
+{
+  "title": "QA Test - Two Column",
+  "slides": [
+    {
+      "type": "two_column",
+      "headline": "Shifting from a product-centric to a customer-centric model requires fundamental operating changes",
+      "left": {
+        "title": "Current State: Product-Centric",
+        "bullets": [
+          "Siloed P&Ls organized by product category",
+          "Success measured by units sold per SKU",
+          "Marketing spend allocated by brand budget",
+          "Customer data fragmented across 7 systems"
+        ]
+      },
+      "right": {
+        "title": "Future State: Customer-Centric",
+        "bullets": [
+          "Integrated P&L organized by customer segment",
+          "Success measured by customer lifetime value",
+          "Marketing spend optimized by predicted ROAS",
+          "Unified customer data platform with real-time 360 view"
+        ]
+      },
+      "source": "Operating model diagnostic; Bain customer-centricity benchmark database"
+    }
+  ]
+}

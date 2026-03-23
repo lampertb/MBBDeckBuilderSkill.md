@@ -1,0 +1,23 @@
+# OS
+.DS_Store
+*~
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+venv/
+env/
+
+# Generated outputs
+qa/output/*.pptx
+test_output.pptx
+*.pptx
+!examples/*.pptx
+
+# Downloaded reference materials
+reference_temp/*.pdf
+
+# Training outputs
+training/output/
+training/diffs/

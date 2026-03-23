@@ -1,0 +1,16 @@
+{
+  "title": "QA Test - Executive Summary",
+  "slides": [
+    {
+      "type": "executive_summary",
+      "headline": "Three strategic imperatives will unlock $2.4B in shareholder value over the next five years",
+      "bullets": [
+        "Core retail margins have declined 340bps since 2023, driven by rising input costs and channel fragmentation — immediate operational restructuring can recover 200bps within 18 months",
+        "Digital commerce penetration at 12% lags peer median of 28%, representing a $680M incremental revenue opportunity through accelerated omnichannel investment",
+        "Supply chain consolidation across 14 regional warehouses into 5 mega-distribution centers will reduce logistics cost by $190M annually while improving delivery speed by 2 days",
+        "Workforce reskilling program targeting 4,500 store associates for hybrid digital-physical roles will reduce attrition by 35% and improve NPS by 15 points"
+      ],
+      "source": "BCG analysis; company financial disclosures FY2023–FY2025; Euromonitor industry benchmarks"
+    }
+  ]
+}

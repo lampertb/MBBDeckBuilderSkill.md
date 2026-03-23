@@ -1,0 +1,228 @@
+{
+  "title": "Project Atlas: Commercial Due Diligence",
+  "author": "Transaction Advisory",
+  "date": "March 2026",
+  "slides": [
+    {
+      "type": "title_hero",
+      "headline": "Project Atlas: Commercial Due Diligence",
+      "subtitle": "Confidential — Prepared for Apollo Capital Partners",
+      "author": "Transaction Advisory Group",
+      "date": "March 22, 2026"
+    },
+    {
+      "type": "agenda",
+      "headline": "Due Diligence Workstreams",
+      "items": [
+        {"title": "Market Attractiveness", "description": "TAM/SAM sizing, growth drivers, regulatory landscape"},
+        {"title": "Competitive Position", "description": "Market share, differentiation, switching costs"},
+        {"title": "Customer & Revenue Quality", "description": "Concentration, retention, pricing power"},
+        {"title": "Financial Bridge & Synergies", "description": "Revenue bridge, cost synergies, integration risks"},
+        {"title": "Risk Assessment & Valuation", "description": "Key risks, management quality, valuation scenarios"}
+      ],
+      "current_item": 1
+    },
+    {
+      "type": "executive_summary",
+      "headline": "Atlas is a compelling acquisition — strong market position with clear value creation levers",
+      "bullets": [
+        {"text": "Atlas holds #2 position in a $14B market growing at 8% CAGR, with defensible share in the fastest-growing sub-segment (cloud-native infrastructure)", "icon": "growth"},
+        {"text": "Customer retention of 94% and NRR of 118% signal strong product-market fit — top-decile among peers", "icon": "target"},
+        {"text": "Revenue concentration risk is manageable: top 10 customers represent 28% of ARR, down from 41% three years ago", "icon": "shield"},
+        {"text": "$45-65M of identified cost synergies from platform consolidation and procurement leverage, achievable within 18 months", "icon": "dollar"},
+        {"text": "Key risk: pending regulatory change in EU (Digital Markets Act) could impact 15% of revenue — mitigation plan required", "icon": "warning"}
+      ],
+      "source": "Management interviews, customer calls (n=32), public filings, Gartner"
+    },
+    {
+      "type": "section_divider",
+      "headline": "Market Attractiveness",
+      "subtitle": "A large and growing market with structural tailwinds favoring the target",
+      "section_number": 1
+    },
+    {
+      "type": "key_stat",
+      "headline": "Atlas operates in a $14B market with above-GDP growth driven by cloud migration",
+      "stats": [
+        {"value": "$14.2B", "label": "Total Addressable Market", "delta": "+8% CAGR", "context": "2024-2029E, Gartner estimates", "icon": "globe"},
+        {"value": "$4.8B", "label": "Serviceable Addressable Market", "delta": "+12% CAGR", "context": "Cloud-native segment growing 1.5x overall", "icon": "growth"},
+        {"value": "#2", "label": "Atlas Market Position", "delta": "+3pp share gain", "context": "Up from #4 in 2021, fastest share gainer", "icon": "target"}
+      ],
+      "source": "Gartner, IDC, company filings; TAM defined as global infrastructure monitoring software"
+    },
+    {
+      "type": "bar_chart",
+      "headline": "Atlas has gained 3pp of market share since 2021, outpacing all competitors",
+      "categories": ["Datadog", "Atlas (Target)", "Splunk/Cisco", "New Relic", "Dynatrace", "Others"],
+      "series": [
+        {"name": "2024 Share (%)", "values": [22, 16, 14, 8, 7, 33], "color": "blue"},
+        {"name": "2021 Share (%)", "values": [18, 13, 16, 9, 8, 36], "color": "mid_grey"}
+      ],
+      "orientation": "horizontal",
+      "show_values": true,
+      "source": "IDC Software Tracker 2024; company estimates for non-public competitors",
+      "footnotes": ["Market share based on recurring revenue; excludes professional services"],
+      "overlays": [
+        {"type": "callout_annotation", "text": "+3pp gain — fastest share mover in market", "x": 7.5, "y": 2.2, "color": "teal"},
+        {"type": "metric_badge", "value": "16%", "label": "Atlas Share", "x": 10.5, "y": 1.4}
+      ]
+    },
+    {
+      "type": "section_divider",
+      "headline": "Customer & Revenue Quality",
+      "subtitle": "High retention and expanding accounts underpin revenue predictability",
+      "section_number": 3
+    },
+    {
+      "type": "line_chart",
+      "headline": "Net revenue retention has expanded from 108% to 118% over 8 quarters",
+      "categories": ["Q1'23", "Q2'23", "Q3'23", "Q4'23", "Q1'24", "Q2'24", "Q3'24", "Q4'24"],
+      "series": [
+        {"name": "Atlas NRR (%)", "values": [108, 110, 112, 113, 114, 115, 117, 118], "color": "teal"},
+        {"name": "Peer Median (%)", "values": [105, 105, 106, 106, 107, 107, 108, 108], "color": "mid_grey"}
+      ],
+      "show_values": false,
+      "source": "Company data; peer median from public SaaS comps (n=24)",
+      "overlays": [
+        {"type": "callout_annotation", "text": "10pp gap to peers — best-in-class expansion", "x": 8.0, "y": 1.8, "color": "teal"}
+      ]
+    },
+    {
+      "type": "data_table",
+      "headline": "Customer concentration has improved significantly — top 10 now 28% of ARR vs 41% in 2021",
+      "headers": ["Customer Tier", "# Accounts", "ARR ($M)", "% of Total", "Avg ACV ($K)", "NRR", "Tenure (yrs)"],
+      "rows": [
+        ["Top 5", "5", "$58.2", "14%", "$11,640", "124%", "6.2"],
+        ["Top 6-10", "5", "$57.8", "14%", "$11,560", "119%", "5.1"],
+        ["Top 11-50", "40", "$98.4", "24%", "$2,460", "116%", "3.8"],
+        ["Top 51-200", "150", "$112.6", "27%", "$751", "113%", "2.9"],
+        ["Long Tail (200+)", "1,840", "$87.0", "21%", "$47", "109%", "1.4"]
+      ],
+      "source": "Company CRM data, December 2024 snapshot",
+      "overlays": [
+        {"type": "color_band", "row_indices": [1, 2], "color": "teal"},
+        {"type": "callout_annotation", "text": "Top 10 = 28% of ARR, down from 41% in 2021", "x": 8.5, "y": 1.5, "color": "navy"}
+      ]
+    },
+    {
+      "type": "waterfall_chart",
+      "headline": "Revenue bridge shows $92M growth driven by expansion and new logos, partially offset by churn",
+      "categories": ["FY2023 ARR", "New Logos", "Expansion", "Churn", "Downgrades", "FY2024 ARR"],
+      "values": [322, 52, 68, -18, -10, 414],
+      "total_indices": [0, 5],
+      "source": "Company financial data, audited FY2024",
+      "footnotes": ["ARR defined as annualized recurring revenue at period end"]
+    },
+    {
+      "type": "two_by_two_matrix",
+      "headline": "Synergy assessment identifies $45-65M opportunity across four categories",
+      "x_axis_label": "Implementation Complexity",
+      "y_axis_label": "Annual Value ($M)",
+      "quadrants": [
+        {"label": "Transform", "description": "High value, complex execution", "color": "#FFF3E0"},
+        {"label": "Capture Now", "description": "High value, straightforward", "color": "#E8F5E9"},
+        {"label": "Evaluate", "description": "Lower value, complex", "color": "#FFEBEE"},
+        {"label": "Quick Wins", "description": "Lower value, easy", "color": "#E3F2FD"}
+      ],
+      "items": [
+        {"name": "Platform consolidation ($20-25M)", "quadrant": "TL", "x": 0.4, "y": 0.3},
+        {"name": "Procurement leverage ($12-15M)", "quadrant": "TR", "x": 0.5, "y": 0.4},
+        {"name": "Go-to-market alignment ($8-12M)", "quadrant": "TR", "x": 0.3, "y": 0.6},
+        {"name": "Real estate rationalization ($3-5M)", "quadrant": "BR", "x": 0.5, "y": 0.4},
+        {"name": "Org simplification ($5-8M)", "quadrant": "BL", "x": 0.4, "y": 0.5}
+      ],
+      "source": "Integration planning team, preliminary estimates subject to diligence"
+    },
+    {
+      "type": "two_column",
+      "headline": "Management team is strong with one critical gap in product leadership",
+      "left": {
+        "title": "Strengths",
+        "metric": "8/10",
+        "metric_label": "Management Quality Score",
+        "bullets": [
+          "CEO: 12-year tenure, built ARR from $40M to $414M",
+          "CRO: Recruited from Datadog in 2022, accelerated enterprise sales 40%",
+          "CFO: IPO-ready finance org with strong controls and forecasting",
+          "Strong bench: 4 of 6 VP-level leaders promoted internally"
+        ]
+      },
+      "right": {
+        "title": "Gaps & Risks",
+        "metric": "1",
+        "metric_label": "Critical Gap Identified",
+        "bullets": [
+          "CPO departed 6 months ago — interim leader is CTO (dual-hatting)",
+          "Product velocity has slowed: feature releases down 30% in H2",
+          "Key-person risk: CEO relationship-driven with 3 of top 5 accounts",
+          "Recommendation: Budget $500K for CPO search, close within 90 days"
+        ]
+      },
+      "source": "Management interviews (n=14), reference calls (n=8), LinkedIn analysis"
+    },
+    {
+      "type": "three_column",
+      "headline": "Three valuation scenarios yield a range of $1.8B to $2.6B equity value",
+      "columns": [
+        {
+          "title": "Bear Case",
+          "icon": "decline",
+          "metric": "$1.8B",
+          "metric_label": "4.5x NTM Revenue",
+          "bullets": [
+            "Growth decelerates to 15% on competitive pressure",
+            "NRR declines to 110% as expansion slows",
+            "No synergy capture in Year 1",
+            "Regulatory headwind impacts 10% of rev"
+          ]
+        },
+        {
+          "title": "Base Case",
+          "icon": "target",
+          "metric": "$2.2B",
+          "metric_label": "5.5x NTM Revenue",
+          "bullets": [
+            "Growth sustains at 22% through FY2026",
+            "NRR stable at 115-118%",
+            "$45M synergies captured by Month 18",
+            "Market share continues expanding"
+          ]
+        },
+        {
+          "title": "Bull Case",
+          "icon": "growth",
+          "metric": "$2.6B",
+          "metric_label": "6.5x NTM Revenue",
+          "bullets": [
+            "Growth accelerates to 28% with new product",
+            "NRR expands to 125% on platform play",
+            "$65M synergies plus revenue synergies",
+            "Successful international expansion"
+          ]
+        }
+      ],
+      "source": "DCF analysis, public comps, precedent transactions; management plan inputs"
+    },
+    {
+      "type": "timeline",
+      "headline": "100-day integration plan with five critical milestones to protect value",
+      "milestones": [
+        {"date": "Day 1-15", "title": "Stabilize", "description": "Retain key talent, customer comms, systems access, governance setup", "status": "upcoming"},
+        {"date": "Day 15-30", "title": "Assess", "description": "Deep-dive on product roadmap, customer health, technical debt", "status": "upcoming"},
+        {"date": "Day 30-60", "title": "Quick Wins", "description": "Procurement savings, duplicative tool elimination, org alignment", "status": "upcoming"},
+        {"date": "Day 60-90", "title": "Transform", "description": "Platform consolidation begins, GTM realignment, CPO hired", "status": "upcoming"},
+        {"date": "Day 90-100", "title": "Report", "description": "Board update: synergy tracking, retention metrics, revised plan", "status": "upcoming"}
+      ],
+      "source": "Integration playbook, Transaction Advisory Group"
+    },
+    {
+      "type": "busybee_sources",
+      "headline": "Sources & References"
+    },
+    {
+      "type": "qa_page",
+      "headline": "Discussion",
+      "subtitle": "Transaction Advisory Group | atlas-diligence@apollocap.com"
+    }
+  ]
+}

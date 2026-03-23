@@ -1,0 +1,16 @@
+{
+  "title": "QA Test - Agenda",
+  "slides": [
+    {
+      "type": "agenda",
+      "headline": "Today's Discussion",
+      "items": [
+        "Situation Assessment & Market Context",
+        "Strategic Options Analysis",
+        "Recommended Transformation Roadmap",
+        "Financial Impact & Investment Requirements"
+      ],
+      "current_item": 2
+    }
+  ]
+}

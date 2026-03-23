@@ -1,0 +1,15 @@
+{
+  "title": "QA Test - Key Stat",
+  "slides": [
+    {
+      "type": "key_stat",
+      "headline": "The transformation program will deliver measurable results across three critical dimensions",
+      "stats": [
+        {"value": "$2.4B", "label": "Incremental Enterprise Value", "detail": "Over 5-year horizon at 8x EV/EBITDA"},
+        {"value": "340bps", "label": "Margin Recovery", "detail": "From 12.2% to 15.6% EBITDA margin by FY2028"},
+        {"value": "18 mo.", "label": "Payback Period", "detail": "On total investment of $450M"}
+      ],
+      "source": "McKinsey financial model; validated with CFO office"
+    }
+  ]
+}

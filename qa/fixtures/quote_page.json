@@ -1,0 +1,11 @@
+{
+  "title": "QA Test - Quote Page",
+  "slides": [
+    {
+      "type": "quote_page",
+      "quote": "We must fundamentally reimagine how we serve our customers — not through incremental improvements, but by building an entirely new operating model that puts digital at the core of every interaction.",
+      "attribution": "Sarah Chen, CEO — Global Retail Holdings",
+      "context": "Keynote address at 2025 Annual Investor Day"
+    }
+  ]
+}

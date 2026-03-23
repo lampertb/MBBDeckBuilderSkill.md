@@ -1,0 +1,13 @@
+{
+  "title": "QA Test - Waterfall Chart",
+  "slides": [
+    {
+      "type": "waterfall_chart",
+      "headline": "Pricing and mix improvements offset volume declines, driving net revenue growth of $320M",
+      "categories": ["FY2025 Revenue", "Volume Decline", "Price Increases", "Mix Improvement", "New Products", "FX Headwinds", "Divestitures", "FY2026E Revenue"],
+      "values": [4200, -380, 420, 210, 185, -95, -20, 4520],
+      "y_axis_label": "Revenue ($M)",
+      "source": "Company financial planning data; McKinsey revenue bridge analysis"
+    }
+  ]
+}

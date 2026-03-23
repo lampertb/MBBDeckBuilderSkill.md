@@ -1,0 +1,227 @@
+{
+  "title": "QA Test - Full Deck",
+  "slides": [
+    {
+      "type": "title_hero",
+      "headline": "Retail Transformation: Unlocking $2.4B in Shareholder Value",
+      "subtitle": "Confidential — Prepared for the Board of Directors",
+      "authored_by": "McKinsey & Company",
+      "date": "March 2026"
+    },
+    {
+      "type": "agenda",
+      "headline": "Today's Discussion",
+      "items": [
+        "Situation Assessment & Market Context",
+        "Strategic Options & Recommendation",
+        "Transformation Roadmap",
+        "Financial Impact & Investment Ask"
+      ],
+      "current_item": 1
+    },
+    {
+      "type": "executive_summary",
+      "headline": "Three strategic imperatives will unlock $2.4B in shareholder value over five years",
+      "bullets": [
+        "Core retail margins have declined 340bps since 2023 — operational restructuring can recover 200bps within 18 months",
+        "Digital commerce at 12% penetration lags peer median of 28%, representing a $680M revenue opportunity",
+        "Supply chain consolidation will reduce logistics cost by $190M annually while improving delivery speed",
+        "Workforce reskilling for 4,500 associates will reduce attrition by 35% and lift NPS by 15 points"
+      ],
+      "source": "BCG analysis; company financials FY2023–FY2025; Euromonitor"
+    },
+    {
+      "type": "section_divider",
+      "headline": "Situation Assessment & Market Context",
+      "subtitle": "Section 1"
+    },
+    {
+      "type": "line_chart",
+      "headline": "Margins have eroded steadily as input costs outpace pricing power",
+      "categories": ["FY2021", "FY2022", "FY2023", "FY2024", "FY2025"],
+      "series": [
+        {
+          "name": "EBITDA Margin (%)",
+          "values": [18.1, 16.8, 15.2, 13.7, 12.2]
+        },
+        {
+          "name": "Peer Median (%)",
+          "values": [17.5, 17.2, 17.0, 16.8, 16.5]
+        }
+      ],
+      "y_axis_label": "EBITDA Margin (%)",
+      "source": "Company financials; S&P Capital IQ peer benchmarking"
+    },
+    {
+      "type": "bar_chart",
+      "headline": "Digital penetration at 12% significantly trails the competitive set",
+      "categories": ["AlphaCorp", "BetaGroup", "Peer Median", "GammaTech", "Client Co."],
+      "series": [
+        {
+          "name": "Digital Revenue Share (%)",
+          "values": [38, 31, 28, 22, 12]
+        }
+      ],
+      "y_axis_label": "Digital as % of Total Revenue",
+      "overlays": [
+        {
+          "type": "callout_annotation",
+          "text": "16pp gap to peer median represents ~$680M in unrealized digital revenue",
+          "x": 0.65,
+          "y": 0.30
+        },
+        {
+          "type": "metric_badge",
+          "value": "16pp",
+          "label": "Gap to Median"
+        }
+      ],
+      "source": "Company data; competitor public filings; Euromonitor 2025"
+    },
+    {
+      "type": "data_table",
+      "headline": "Competitive benchmarking reveals clear performance gaps across all key metrics",
+      "columns": ["Metric", "Client Co.", "Peer Median", "Best-in-Class", "Gap"],
+      "rows": [
+        ["EBITDA Margin", "12.2%", "16.5%", "28.4%", "-430bps"],
+        ["Digital Penetration", "12%", "28%", "38%", "-16pp"],
+        ["Inventory Turns", "4.2x", "6.1x", "8.3x", "-1.9x"],
+        ["NPS Score", "32", "48", "71", "-16pts"],
+        ["Employee Attrition", "28%", "18%", "11%", "+10pp"]
+      ],
+      "overlays": [
+        {
+          "type": "color_band",
+          "row_indices": [1, 2],
+          "color": "crimson"
+        },
+        {
+          "type": "callout_annotation",
+          "text": "Largest gaps in margin and digital — these must be the primary transformation focus areas",
+          "x": 0.55,
+          "y": 0.82
+        }
+      ],
+      "source": "S&P Capital IQ; company data; Bain NPS benchmarks"
+    },
+    {
+      "type": "section_divider",
+      "headline": "Strategic Options & Recommendation",
+      "subtitle": "Section 2"
+    },
+    {
+      "type": "two_by_two_matrix",
+      "headline": "Prioritize by feasibility and impact — three quick wins can self-fund the transformation",
+      "x_axis_label": "Implementation Feasibility",
+      "y_axis_label": "Annual Value Impact ($M)",
+      "items": [
+        {"label": "Pricing Optimization", "x": 0.8, "y": 0.9, "size": "large"},
+        {"label": "Store Rationalization", "x": 0.3, "y": 0.85, "size": "large"},
+        {"label": "Procurement Consolidation", "x": 0.75, "y": 0.6, "size": "medium"},
+        {"label": "ERP Migration", "x": 0.2, "y": 0.5, "size": "medium"},
+        {"label": "Loyalty Relaunch", "x": 0.65, "y": 0.4, "size": "small"}
+      ],
+      "source": "Initiative sizing; management interviews; McKinsey benchmarks"
+    },
+    {
+      "type": "two_column",
+      "headline": "The recommended path shifts the company from product-centric to customer-centric",
+      "left": {
+        "title": "Current State",
+        "bullets": [
+          "Siloed P&Ls by product category",
+          "Success measured by units per SKU",
+          "Marketing by brand budget allocation",
+          "Customer data in 7 fragmented systems"
+        ]
+      },
+      "right": {
+        "title": "Future State",
+        "bullets": [
+          "Integrated P&L by customer segment",
+          "Success measured by lifetime value",
+          "Marketing optimized by predicted ROAS",
+          "Unified CDP with real-time 360 view"
+        ]
+      },
+      "source": "Operating model diagnostic; Bain customer-centricity benchmarks"
+    },
+    {
+      "type": "section_divider",
+      "headline": "Transformation Roadmap",
+      "subtitle": "Section 3"
+    },
+    {
+      "type": "three_column",
+      "headline": "The transformation rests on three reinforcing pillars",
+      "columns": [
+        {
+          "title": "Commercial Excellence",
+          "bullets": [
+            "Dynamic pricing across 12,000 SKUs",
+            "AI-driven assortment optimization",
+            "Category management redesign"
+          ]
+        },
+        {
+          "title": "Operational Efficiency",
+          "bullets": [
+            "Warehouse consolidation: 14 to 5 sites",
+            "Last-mile delivery partnerships",
+            "Lean deployment in top 200 stores"
+          ]
+        },
+        {
+          "title": "Digital & Analytics",
+          "bullets": [
+            "Unified commerce platform",
+            "Customer data platform with personalization",
+            "AI demand forecasting (40% stockout reduction)"
+          ]
+        }
+      ],
+      "source": "McKinsey transformation architecture"
+    },
+    {
+      "type": "timeline",
+      "headline": "Execution spans 30 months with progressive value capture from Month 6",
+      "milestones": [
+        {"date": "Q2 2026", "label": "Launch", "detail": "PMO stood up; quick wins initiated"},
+        {"date": "Q4 2026", "label": "Foundation", "detail": "CDP deployed; warehouse Phase 1 complete"},
+        {"date": "Q2 2027", "label": "Scale", "detail": "Commerce platform live; AI in 100 stores"},
+        {"date": "Q4 2027", "label": "Full Deploy", "detail": "All 5 mega-DCs operational; 25% digital"},
+        {"date": "Q2 2028", "label": "Steady State", "detail": "$450M run-rate savings achieved"}
+      ],
+      "source": "McKinsey implementation roadmap"
+    },
+    {
+      "type": "waterfall_chart",
+      "headline": "The transformation bridges current EBITDA to target through five distinct value levers",
+      "categories": ["FY2025 EBITDA", "Pricing & Mix", "Procurement Savings", "Network Optimization", "Digital Revenue", "Workforce & SGA", "Investment Costs", "FY2028E EBITDA"],
+      "values": [2330, 420, 190, 175, 340, 110, -305, 3260],
+      "y_axis_label": "EBITDA ($M)",
+      "source": "McKinsey financial model; CFO office validation"
+    },
+    {
+      "type": "key_stat",
+      "headline": "The investment case is compelling across all three critical dimensions",
+      "stats": [
+        {"value": "$2.4B", "label": "Enterprise Value Uplift", "detail": "At 8x EV/EBITDA over 5 years"},
+        {"value": "340bps", "label": "Margin Recovery", "detail": "From 12.2% to 15.6% by FY2028"},
+        {"value": "18 mo.", "label": "Payback Period", "detail": "On $450M total investment"}
+      ],
+      "source": "McKinsey financial model"
+    },
+    {
+      "type": "quote_page",
+      "quote": "This is not just a cost program — it is a fundamental repositioning of our company for the next decade of growth.",
+      "attribution": "Sarah Chen, CEO — Global Retail Holdings",
+      "context": "Steering Committee meeting, February 2026"
+    },
+    {
+      "type": "qa_page",
+      "headline": "Questions & Discussion",
+      "contact_info": "James Park, Partner — jpark@mckinsey.com | +1 (212) 446-7000"
+    }
+  ]
+}

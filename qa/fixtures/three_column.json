@@ -1,0 +1,36 @@
+{
+  "title": "QA Test - Three Column",
+  "slides": [
+    {
+      "type": "three_column",
+      "headline": "The transformation rests on three reinforcing pillars — commercial, operational, and digital",
+      "columns": [
+        {
+          "title": "Commercial Excellence",
+          "bullets": [
+            "Dynamic pricing engine across 12,000 SKUs",
+            "Assortment optimization using demand sensing AI",
+            "Category management redesign with vendor co-investment"
+          ]
+        },
+        {
+          "title": "Operational Efficiency",
+          "bullets": [
+            "Warehouse network consolidation from 14 to 5 sites",
+            "Last-mile delivery partnership with 3 regional carriers",
+            "Lean Six Sigma deployment in top 200 stores"
+          ]
+        },
+        {
+          "title": "Digital & Analytics",
+          "bullets": [
+            "Unified commerce platform replacing 4 legacy systems",
+            "Customer data platform with real-time personalization",
+            "AI-powered demand forecasting reducing stockouts by 40%"
+          ]
+        }
+      ],
+      "source": "McKinsey transformation architecture; workstream leads input"
+    }
+  ]
+}

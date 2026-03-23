@@ -1,0 +1,17 @@
+{
+  "title": "QA Test - Timeline",
+  "slides": [
+    {
+      "type": "timeline",
+      "headline": "Full transformation execution spans 30 months with value captured progressively from Month 6",
+      "milestones": [
+        {"date": "Q2 2026", "label": "Program Launch", "detail": "PMO established; quick-win initiatives kicked off; pricing optimization live"},
+        {"date": "Q4 2026", "label": "Foundation Complete", "detail": "Customer data platform deployed; warehouse consolidation Phase 1 done"},
+        {"date": "Q2 2027", "label": "Scale & Expand", "detail": "Unified commerce platform go-live; AI demand forecasting in 100 stores"},
+        {"date": "Q4 2027", "label": "Full Deployment", "detail": "All 5 mega-DCs operational; digital channel at 25% penetration"},
+        {"date": "Q2 2028", "label": "Steady State", "detail": "Run-rate savings of $450M achieved; operating model fully embedded"}
+      ],
+      "source": "McKinsey implementation roadmap; validated with Steering Committee"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "title": "QA Test - Line Chart",
+  "slides": [
+    {
+      "type": "line_chart",
+      "headline": "Customer acquisition cost has risen 62% while lifetime value remains flat — unit economics are deteriorating",
+      "categories": ["Q1'24", "Q2'24", "Q3'24", "Q4'24", "Q1'25", "Q2'25", "Q3'25", "Q4'25"],
+      "series": [
+        {
+          "name": "Customer Acquisition Cost ($)",
+          "values": [42, 48, 53, 55, 59, 62, 65, 68]
+        },
+        {
+          "name": "Customer Lifetime Value ($)",
+          "values": [210, 215, 208, 212, 205, 198, 202, 207]
+        }
+      ],
+      "y_axis_label": "Dollars ($)",
+      "source": "Company CRM data; cohort analysis by BCG GAMMA team"
+    }
+  ]
+}

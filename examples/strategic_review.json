@@ -1,0 +1,216 @@
+{
+  "title": "FY2024 Strategic Review",
+  "author": "Strategy & Operations",
+  "date": "March 2026",
+  "slides": [
+    {
+      "type": "title_hero",
+      "headline": "FY2024 Strategic Review",
+      "subtitle": "Board of Directors Quarterly Presentation",
+      "author": "Strategy & Operations",
+      "date": "March 22, 2026"
+    },
+    {
+      "type": "agenda",
+      "headline": "Today's Discussion",
+      "items": [
+        {"title": "Financial Performance", "description": "Revenue, margins, and cost structure"},
+        {"title": "Market Position", "description": "Competitive landscape and share trends"},
+        {"title": "Strategic Initiatives", "description": "Key programs and investment priorities"},
+        {"title": "Outlook & Recommendations", "description": "FY2025 targets and next steps"}
+      ],
+      "current_item": 1
+    },
+    {
+      "type": "section_divider",
+      "headline": "Financial Performance",
+      "subtitle": "Revenue growth accelerated but margins remain under pressure",
+      "section_number": 1
+    },
+    {
+      "type": "executive_summary",
+      "headline": "Three forces are reshaping our competitive position in FY2024",
+      "bullets": [
+        "Enterprise revenue grew 18% YoY driven by platform expansion into healthcare vertical, now representing 58% of total revenue",
+        "Customer retention declined to 87% as mid-market churn accelerated — 340 accounts lost in H2, primarily to lower-cost competitors",
+        "Margin compression of 200bps reflects $42M increased investment in AI capabilities, expected to yield returns in FY2025-2026",
+        "International expansion exceeded targets with EMEA contributing $95M, up 32% from FY2023",
+        "Cash position remains strong at $280M with $0 debt, providing flexibility for M&A opportunities"
+      ],
+      "source": "Internal analysis, March 2026"
+    },
+    {
+      "type": "key_stat",
+      "headline": "Revenue reached $830M in FY2024, up 15% year-over-year",
+      "stats": [
+        {"value": "$830M", "label": "Total Revenue", "delta": "+15% YoY", "context": "vs. $722M in FY2023"},
+        {"value": "87%", "label": "Customer Retention", "delta": "-3pp", "context": "Down from 90% in FY2023"},
+        {"value": "22.4%", "label": "EBITDA Margin", "delta": "-200bps", "context": "AI investment impact"}
+      ],
+      "source": "Finance, FY2024 actuals"
+    },
+    {
+      "type": "bar_chart",
+      "headline": "Enterprise segment drove 72% of revenue growth in FY2024",
+      "categories": ["Enterprise", "Mid-Market", "SMB", "Channel", "EMEA"],
+      "series": [
+        {"name": "FY2024 ($M)", "values": [480, 210, 95, 45, 95], "color": "blue"},
+        {"name": "FY2023 ($M)", "values": [408, 198, 92, 40, 72], "color": "mid_grey"}
+      ],
+      "orientation": "vertical",
+      "show_values": true,
+      "source": "Finance, FY2024 actuals",
+      "footnotes": ["Excludes one-time restructuring charges of $8M"],
+      "overlays": [
+        {"type": "callout_annotation", "text": "+$72M (+18%)", "x": 1.5, "y": 1.5, "color": "teal"},
+        {"type": "metric_badge", "value": "$830M", "label": "Total Revenue", "delta": "+15%", "x": 10.0, "y": 1.4}
+      ]
+    },
+    {
+      "type": "line_chart",
+      "headline": "Revenue growth has accelerated each quarter, reaching 18% in Q4",
+      "categories": ["Q1 FY23", "Q2 FY23", "Q3 FY23", "Q4 FY23", "Q1 FY24", "Q2 FY24", "Q3 FY24", "Q4 FY24"],
+      "series": [
+        {"name": "Revenue ($M)", "values": [168, 175, 182, 197, 195, 205, 212, 218], "color": "blue"},
+        {"name": "Target ($M)", "values": [170, 178, 185, 195, 198, 208, 215, 220], "color": "mid_grey"}
+      ],
+      "source": "Finance, quarterly actuals vs. board-approved plan"
+    },
+    {
+      "type": "waterfall_chart",
+      "headline": "EBITDA declined $8M despite revenue growth due to AI investment ramp",
+      "categories": ["FY2023 EBITDA", "Revenue Growth", "Gross Margin", "AI Investment", "Sales & Marketing", "G&A Savings", "FY2024 EBITDA"],
+      "values": [177, 48, -12, -42, -15, 13, 186],
+      "total_indices": [0, 6],
+      "source": "Finance, FY2024 P&L bridge",
+      "footnotes": ["AI Investment includes $28M in engineering headcount and $14M in compute costs"]
+    },
+    {
+      "type": "data_table",
+      "headline": "Mid-market churn concentrated in accounts under $50K ACV",
+      "headers": ["Segment", "Accounts Lost", "Revenue Impact", "Avg ACV", "Primary Reason", "Win-Back Rate"],
+      "rows": [
+        ["<$25K ACV", "180", "$3.2M", "$18K", "Price sensitivity", "12%"],
+        ["$25K-$50K", "110", "$4.1M", "$37K", "Feature gaps", "18%"],
+        ["$50K-$100K", "35", "$2.6M", "$74K", "Competitor switch", "25%"],
+        ["$100K-$250K", "12", "$1.8M", "$150K", "Platform consolidation", "33%"],
+        [">$250K", "3", "$1.1M", "$367K", "Strategic realignment", "0%"]
+      ],
+      "source": "Customer Success, H2 FY2024 churn analysis",
+      "overlays": [
+        {"type": "color_band", "row_indices": [1, 2], "color": "crimson"},
+        {"type": "callout_annotation", "text": "85% of lost accounts under $50K ACV", "x": 8.5, "y": 1.5, "color": "crimson"}
+      ]
+    },
+    {
+      "type": "section_divider",
+      "headline": "Strategic Initiatives",
+      "subtitle": "Three bets to restore growth and defend market position",
+      "section_number": 3
+    },
+    {
+      "type": "two_by_two_matrix",
+      "headline": "Portfolio prioritization reveals two high-impact, high-feasibility initiatives",
+      "x_axis_label": "Implementation Feasibility",
+      "y_axis_label": "Strategic Impact",
+      "quadrants": [
+        {"label": "Invest Aggressively", "description": "High impact, harder to execute", "color": "#E8F5E9"},
+        {"label": "Quick Wins", "description": "High impact, easy to execute", "color": "#E3F2FD"},
+        {"label": "Deprioritize", "description": "Low impact, hard to execute", "color": "#FFF3E0"},
+        {"label": "Incremental", "description": "Low impact, easy to execute", "color": "#F3E5F5"}
+      ],
+      "items": [
+        {"name": "AI Platform", "quadrant": "TL", "x": 0.3, "y": 0.3},
+        {"name": "Healthcare Vertical", "quadrant": "TR", "x": 0.6, "y": 0.4},
+        {"name": "Self-Serve Portal", "quadrant": "TR", "x": 0.3, "y": 0.6},
+        {"name": "Legacy Migration", "quadrant": "BL", "x": 0.5, "y": 0.5},
+        {"name": "Partner Enablement", "quadrant": "BR", "x": 0.5, "y": 0.4}
+      ],
+      "source": "Strategy team assessment, Q1 FY2025"
+    },
+    {
+      "type": "two_column",
+      "headline": "Healthcare vertical expansion presents a $2.4B TAM opportunity",
+      "left": {
+        "title": "Market Opportunity",
+        "bullets": [
+          "$2.4B total addressable market by 2027",
+          "12% CAGR driven by digital transformation mandates",
+          "Only 3 credible competitors in the space today",
+          "Regulatory tailwinds from interoperability requirements"
+        ]
+      },
+      "right": {
+        "title": "Our Advantages",
+        "bullets": [
+          "Existing relationships with 6 of top 10 health systems",
+          "HIPAA-compliant infrastructure already in place",
+          "AI capabilities differentiate vs. legacy vendors",
+          "$12M pipeline already identified for H1 FY2025"
+        ]
+      },
+      "source": "Market analysis, Gartner & internal estimates"
+    },
+    {
+      "type": "three_column",
+      "headline": "Three strategic bets will drive the next phase of growth",
+      "columns": [
+        {
+          "title": "Bet 1: AI Platform",
+          "bullets": [
+            "Productize internal AI capabilities",
+            "Target $50M ARR by FY2026",
+            "Investment: $28M over 18 months",
+            "Risk: Technical execution"
+          ]
+        },
+        {
+          "title": "Bet 2: Healthcare",
+          "bullets": [
+            "Dedicated vertical go-to-market",
+            "Target $35M ARR by FY2026",
+            "Investment: $15M over 12 months",
+            "Risk: Regulatory complexity"
+          ]
+        },
+        {
+          "title": "Bet 3: International",
+          "bullets": [
+            "Expand EMEA, enter APAC",
+            "Target $150M ARR by FY2026",
+            "Investment: $20M over 18 months",
+            "Risk: Operational complexity"
+          ]
+        }
+      ],
+      "source": "Strategic plan, FY2025-2026"
+    },
+    {
+      "type": "timeline",
+      "headline": "Implementation roadmap spans 18 months with three key milestones",
+      "milestones": [
+        {"date": "Q1 FY25", "title": "Foundation", "description": "Hire key roles, finalize architecture"},
+        {"date": "Q2 FY25", "title": "Alpha Launch", "description": "First healthcare pilot customers"},
+        {"date": "Q3 FY25", "title": "GA Release", "description": "AI platform general availability"},
+        {"date": "Q4 FY25", "title": "Scale", "description": "APAC market entry, 50+ AI customers"},
+        {"date": "Q2 FY26", "title": "Maturity", "description": "All three bets at run-rate targets"}
+      ],
+      "source": "PMO, approved program timeline"
+    },
+    {
+      "type": "quote_page",
+      "quote": "The companies that win in the next decade will be those that treat AI not as a feature, but as the foundation of their entire value proposition.",
+      "attribution": "Sarah Chen",
+      "title": "CEO, Acme Corp — Q4 FY2024 All-Hands"
+    },
+    {
+      "type": "busybee_sources",
+      "headline": "Sources & References"
+    },
+    {
+      "type": "qa_page",
+      "headline": "Questions & Discussion",
+      "subtitle": "Strategy & Operations | strategy@acmecorp.com"
+    }
+  ]
+}

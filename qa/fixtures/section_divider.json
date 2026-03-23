@@ -1,0 +1,10 @@
+{
+  "title": "QA Test - Section Divider",
+  "slides": [
+    {
+      "type": "section_divider",
+      "headline": "Market Landscape & Competitive Dynamics",
+      "subtitle": "Section 2 of 5"
+    }
+  ]
+}
